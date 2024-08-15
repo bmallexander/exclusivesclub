@@ -1,71 +1,158 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="de-DE" prefix="og: http://ogp.me/ns#">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Basic Webpage</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #444;
-            padding: 10px 0;
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            padding: 10px 20px;
-        }
-        nav a:hover {
-            background-color: #555;
-        }
-        main {
-            padding: 20px;
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <title>Exclusives Club</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+    <link rel="stylesheet" type="text/css" href="css/normalize.min.css" media="all" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/flexboxgrid.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/theme.css" media="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
-
-    <header>
-        <h1>Welcome to My Website</h1>
-    </header>
-
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Contact</a>
-    </nav>
-
+    <header class="fade-in">
+        <div class="navigation-bar flex middle-xs">
+            <img src="img/eclogo.png" class="logo">
+            <nav class="end-xs">
+                <ul>
+                    <li><a href="#about-us">About us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#benefits">Benefits</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="hero flex middle-xs" style="background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url('img/hero-image.jpg');
+    }">
+    <div class="hero-text ">
+        <h1>Exclusives Club</h1>
+        <h4>Exclusives Club is a community for business tycoons who are eager to collaborate, buy and sell companies, receive exclusive invitations in Dubai, and access complimentary services, among many other benefits.</h4>
+    </div>
+</div>
+</header>
+<div class="wrapper">
     <main>
-        <h2>About This Page</h2>
-        <p>This is a basic webpage template created with HTML and some inline CSS for styling. You can use this as a starting point for your own web projects.</p>
-    </main>
+        <section class="intro" id="about-us">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md">
+                        <h2 class="section-title">About Us</h2>
+                    </div>
+                </div>
+                <div class="row margin-bottom ">
+                    <div class="col-md">
+                        <p class="highlight">Exclusives Club is a community for business tycoons who are eager to collaborate, buy and sell companies, receive exclusive invitations in Dubai, and access complimentary services, among many other benefits. If you're under 18 and interested in starting your own physical stores, EC is the perfect choice! Join EC to take advantage of affordable items and much more.
+                            .</p>
+                        <p class="author">- Cemal, CEO - Founder</p>
+                    </div>
+                    <div class="col-md">
+                        <p>We at Exclusives Club aim at making a community for businesses, and people who eager in making, scaling, and selling businesses..</p>
+                        <p class="author">- Rufwa, CTO</p>
+                    </div>
+                </div>
 
+            </div>
+        </section>
+        <hr/>
+        <section class="services" id="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 center-xs">
+                        <h2 class="section-title">Services</h2>
+                    </div>
+                </div>
+                <div class="row icon-row">
+                    <div class="col-xs center-xs">
+                        <img src="img/001-achievement.svg" class="icon"><br/>
+                        Membership
+                    </div>
+                    <div class="col-xs center-xs">
+                        <img src="img/002-pencil.svg" class="icon"><br/>
+                        Complimentary services
+                    </div>
+
+                </div>
+                <div class="row margin-bottom ">
+                    <div class="col-md">
+                        <p class="highlight">Memberships, Inside the membership you will be able to get thought and teach your businesses topic, It is important that we teach the underaged youth on how to make a living.</p>
+                    </div>
+                    <div class="col-md">
+                        <p>complimentary Services, We offer FREE services for the exclusive people, Exclusives are given free once we recognize famous people
+                            .</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cta middle-xs">
+            <div class="container">
+                <div class="row middle-md">
+                    <div class="col-md-8">
+                        <h2>Membership</h2>
+                        <p>People who have Exclusives Club membership also gets premium access to other projects, What are you waiting for ?</p>
+                        <a href="client-area.html"><button class="light">Join Now!</button></a>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/cta-display.png" class="display">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+            <section class="blurbs" id="benefits">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md center-xs">
+                            <h2 class="section-title">Benefits</h2>
+                        </div>
+                    </div>
+                    <div class="row margin-bottom-small center-xs">
+                        <div class="col-md">
+                            <img src="img/001-achievement.svg" class="icon ">
+                            <h3>Free Services</h3>
+                            <p>Exclusives are given free once we recognize famous people, And worthy people.</p>
+                        </div>
+                        <div class="col-md">
+                            <img src="img/002-pencil.svg" class="icon">
+                            <h3>1 On 1</h3>
+                            <p>Here on EC, we will offer one on one with you, Teaching how you can start and scale your busines. </p>
+                        </div>
+                        <div class="col-md">
+                            <img src="img/003-idea.svg" class="icon">
+                            <h3>Community</h3>
+                            <p>We at EC have a fast growing community, Filled with like minded people just like yourself. </p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
     <footer>
-        <p>&copy; 2024 My Website</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md center-xs">
+                </div>
+            </div>
+            <div class="row margin-bottom-small">
+                <div class="col-md-8">
+                    <h3>About us</h3>
+                    <p>Exclusives Club is a community for business tycoons who are eager to collaborate, buy and sell companies, receive exclusive invitations in Dubai, and access complimentary services, among many other benefits. If you're under 18 and interested in starting your own physical stores, EC is the perfect choice! Join EC to take advantage of affordable items and much more.
+                        .</p>
+                </div>
+
+            </div>
+        </div>
     </footer>
 
+    <div class="row secondary-footer">
+        <div class="col-md">
+         <p>Made with love ♥ by the team © 2024.</p>                
+     </div>
+     <div class="col-md end-md">
+         <p><a href="#">Imprint</a> | <a href="#">Data Protection</a></p>                
+     </div>
+ </div>
+ <script src="https://cdn.polyfill.io/v2/polyfill.min.js?callback=polyfillsAreLoaded" defer></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="js/script.js" defer></script>
 </body>
 </html>

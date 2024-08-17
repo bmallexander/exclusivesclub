@@ -577,3 +577,43 @@ footer li a{
 .about-frame.appear {
     animation: fadeInUp 0.8s forwards;
 }
+
+.news {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+.news-frame {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.news-frame:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.news-frame-content h3 {
+    margin-top: 0;
+    color: #333;
+    font-size: 1.5em;
+}
+
+.news-frame-content p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.5;
+}
+
+.news-frame-content a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.news-frame-content a:hover {
+    text-decoration: underline;
+}

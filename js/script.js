@@ -22,3 +22,19 @@ $( document ).ready(function() {
 
 
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    let frames = document.querySelectorAll(".about-frame");
+
+    function checkFramesInView() {
+        frames.forEach(frame => {
+            let rect = frame.getBoundingClientRect();
+            if (rect.top < window.innerHeight && rect.bottom > 0) {
+                frame.classList.add("appear");
+            }
+        });
+    }
+
+    window.addEventListener("scroll", checkFramesInView);
+    checkFramesInView(); 
+});

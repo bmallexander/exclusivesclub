@@ -68,6 +68,27 @@
         .payment-options button:hover {
             background-color: #0056b3;
         }
+
+        .membership-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* Space between the two cards */
+        }
+
+        .sidenote-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px; /* Space between the cards and the sidenote */
+        }
+
+        .sidenote-container p {
+            text-align: center;
+            font-size: 14px;
+            color: #333;
+            margin: 0;
+        }
+
+
     </style>
 </head>
 <body>
@@ -98,7 +119,7 @@
             <section class="membership-section">
                 <div class="container">
                     <h2 class="section-title">Choose Your Membership</h2>
-                    <div class="row">
+                    <div class="row membership-container">
                         <div class="col-md">
                             <div class="membership-card" data-price="100" data-type="basic" data-link="https://oxapay.com/pay/99211567">
                                 <h3>Basic Membership</h3>
@@ -114,6 +135,14 @@
                                 <p>All basic features plus premium access and exclusive services.</p>
                                 <button type="button" class="select-button">Select</button>
                             </div>
+                        </div>
+                    </div>
+                    <div class="sidenote-container">
+                        <p>SIDE NOTE: Please contact us with your payment ID after completing the order.</p>
+                    </div>
+                </div>
+                
+                        
                         </div>
                     </div>
                     <div class="payment-options" id="paymentOptions">
